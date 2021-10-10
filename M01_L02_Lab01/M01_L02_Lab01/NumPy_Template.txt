@@ -1,0 +1,45 @@
+###############
+# Code template
+#
+# This file is a template for code.
+# If you are not able to load data properly during editing,
+# copy and use the code from this file.
+###############
+
+###############
+# Data preparation
+###############
+import csv
+header = next(csv.reader(open('C:\\Labs\\Module1\\LAB\\M01_L02_Lab01\\linnerud.csv','r')))
+import numpy as np
+data = np.loadtxt('C:\\Labs\\Module1\\LAB\\M01_L02_Lab01\\linnerud.csv', delimiter=',', skiprows=1)
+weights_pounds = data.T[1]
+
+###############
+# Processing data
+###############
+
+
+
+
+###############
+# Calculate basic statistics
+###############
+
+
+
+
+###############
+# Random choice
+###############
+
+
+
+
+###############
+# Count by range
+###############
+
+
+
+
